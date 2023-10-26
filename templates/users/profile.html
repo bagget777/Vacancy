@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Профиль пользователя</title>
+</head>
+<body>
+    <h1>Профиль пользователя</h1>
+    <h2>Профиль {{ user.username }}</h2>
+    <p>Имя: {{ user.first_name }}</p>
+    <p>Фамилия: {{ user.last_name }}</p>
+    <p>Email: {{ user.email }}</p>
+    <!-- Другие поля профиля, если они есть -->
+
+    <h2>Ваше резюме</h2>
+    <p>Полное имя: {{ user_profile.full_name }}</p>
+    <p>Email: {{ user_profile.email }}</p>
+    <p>Телефон: {{ user_profile.phone }}</p>
+    <p>Сводка: {{ user_profile.summary }}</p>
+    <!-- Другие поля резюме, если они есть -->
+</body>
+</html>

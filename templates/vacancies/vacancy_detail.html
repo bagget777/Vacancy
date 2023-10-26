@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Подробная информация о вакансии</title>
+</head>
+<body>
+    <h1>Подробная информация о вакансии</h1>
+    
+    <h2>{{ vacancy.title }}</h2>
+    <p>Компания: {{ vacancy.company }}</p>
+    <p>Зарплата: {{ vacancy.salary }}</p>
+    <p>Описание: {{ vacancy.description }}</p>
+
+    <a href="{% url 'vacancies:vacancy_list' %}">Вернуться к списку вакансий 
+    </a>
+    <a href="{% url 'vacancies:create_vacancy' %}">Написать вакансию
+    </a>
+</body>
+</html>

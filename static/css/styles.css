@@ -1,0 +1,54 @@
+
+/* styles.css */
+
+/* Стили для страницы вакансий */
+.vacancy-page {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+.vacancy-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0071e3;
+}
+
+.vacancy-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.vacancy-requirements {
+    margin-top: 20px;
+}
+
+.vacancy-requirements h3 {
+    font-size: 20px;
+    color: #0071e3;
+}
+
+.vacancy-requirement-item {
+    font-size: 16px;
+    list-style: disc;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* Стили для кнопки "Откликнуться" */
+.apply-button {
+    background-color: #0071e3;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-button:hover {
+    background-color: #0055b7;
+}
+
